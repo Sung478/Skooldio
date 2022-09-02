@@ -58,8 +58,9 @@
    }
 
 #heart {
-    position: absolute;
-    right: 40px;
+    position: relative;
+    right: 0px;
+    width: 30px;
 }
 
 
