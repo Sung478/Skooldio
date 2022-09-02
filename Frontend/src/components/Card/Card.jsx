@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Score from '../Score/Score'
+import axiosInstance from '../../config/axios'
+import data from '../data'
 
 import './Card.css'
+import { useEffect } from 'react'
 
 export default function Card() {
+
+    const [data, setData] = useState([])
+    const [isLoaing, setIsLoading] = useState(true)
+
+    const getData = async () => {
+        const response = await axiosInstance.get()
+        setData(response.data)
+        setIsLoading(false)
+        console.log(data)
+    }
+
+    useEffect(() => {
+        getData()
+    }, [isLoaing])
+    
   return (
     <div className='Card'>
         <div className='heading'>
