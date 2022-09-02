@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Card from './components/Card/Card'
+import Cardlist from './components/Card/Cardlist'
 
 function App() {
   return (
-    <Card/>
+    <div className='app'>
+      <Cardlist/>
+    </div>
   )
 }
 
