@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="23px" viewBox="0 0 18 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>215B5CB8-4024-4ADF-973E-FE57F8CF4C4C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="18" y="17" width="442" height="493" rx="5"></rect>
+        <filter x="-1.6%" y="-1.0%" width="103.2%" height="102.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="tcaster-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard---1366x768-(W960px---12-Col.grid)-Copy-50" transform="translate(-425.000000, -468.000000)">
+            <rect id="Rectangle-4" fill="#F3F3F3" opacity="0.2" x="-2" y="0" width="1368" height="775"></rect>
+            <g id="Rectangle-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-2" transform="translate(426.000000, 469.000000)" stroke="#404042" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5769999">
+                <polyline id="Stroke-1" points="8 15 8 0 4 3.17529295"></polyline>
+                <polyline id="Stroke-3" points="8 15 8 0 12 3.17529295"></polyline>
+                <polyline id="Stroke-5" points="12.5508922 9 16 9 16 21 8.00020022 21 0 21 0 9 3.44910779 9"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
