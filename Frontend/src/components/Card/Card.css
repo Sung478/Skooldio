@@ -95,6 +95,11 @@
     color: #48b6a3;
 }
 
+.score-more img {
+    height: 12px;
+    padding-top: 18px;
+}
+
 .card-footer {
     display: flex;
     justify-content: space-between;
@@ -103,4 +108,10 @@
 .card-footer div {
     display: flex;
     color: #9b9b9b;
+}
+
+.card-footer img {
+    height: 20px;
+    margin-left: 0;
+    padding-left: 0;
 }

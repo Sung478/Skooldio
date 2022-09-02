@@ -26,12 +26,12 @@ export default function Card() {
                 </div>
                 <Score />
                 <div className='score-more'>
-                    <div className='traingle'></div>
+                    <img src='/play-button-arrowhead.png'/>
                     <p>สัดส่วนคะแนน</p>
                 </div>
                 <div className='card-footer'>
                     <div>
-                        <img src='' alt='human'/>
+                        <img src='/default-profile.png' alt='human'/>
                         <p>10</p>
                         <p><em>คนที่สนใจ</em></p>
                     </div>
