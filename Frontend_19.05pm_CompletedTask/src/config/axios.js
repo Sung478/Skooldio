@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from '../../../Frontend_18.40pm_CompletedTask/node_modules/axios'
 
 const server = "https://tcas-assets.skooldio.com/tmp/mock_tcaster_api.json"
 
