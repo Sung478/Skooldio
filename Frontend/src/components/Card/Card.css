@@ -9,6 +9,7 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     background-color: var(--white-0);
     padding: 20px;
+    width: 500px;
 }
 
 .heading {
@@ -88,7 +89,7 @@
 .score-more {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #d8d8d8;
     min-height: 50px;
     color: #48b6a3;
 }
